@@ -44,7 +44,7 @@ function generatingComponent(vardata){
 
       .compose([
 
-        dc.lineChart(nbDatasetsTrends).group(groupvalue3).renderArea(true).colors(colors[0]).title(function (d) { return [ dateFormat1(d.key), d.value + ' organisations'].join('\n'); }),
+        dc.lineChart(nbDatasetsTrends).group(groupvalue3).renderArea(true).colors(colors[0]).title(function (d) { return [ dateFormat1(d.key), d.value + 'registered users'].join('\n'); }),
 
         ])
 
